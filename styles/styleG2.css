@@ -1,0 +1,367 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    width:100vw;
+    height:100vh;
+    background-color: black;
+}
+@font-face{
+    font-family: ProductSans;
+    src:url(../assets/fonts/Product\ Sans\ Regular.ttf.ttf)
+}
+#freeapi_button{
+    color:rgb(107, 209, 239);
+    width:6vw;
+    height:4vh;
+    position:relative;
+    left:46vw;
+    top:15vh;
+    background-color: rgb(30 41 59 );
+    border:none;
+    border-radius: 2vw;
+    box-shadow: -0.05vw -0.05vw 0.1px rgb(71, 200, 239);
+    cursor: pointer;
+}
+#unlock_heading{
+    color:rgb(221, 211, 211);
+    font-family: ProductSans;
+    font-size: 3.5vw;
+    position:relative;
+    left:21vw;
+    top:17vh;
+    font-weight: lighter;
+}
+#freeapi_para{
+    color:rgb(203, 198, 198);
+    position:relative;
+    top:19vh;
+    left:17vw;
+    font-size: 1.1vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 3vh;
+}
+#githubrepo_button{
+    width:8vw;
+    height:5vh;
+    background-color: rgb(5, 168, 238);
+    color:white;
+    font-size: 1vw;
+    position: relative;
+    top:22vh;
+    left:42vw;
+    border:none;
+    outline: none;
+    border-radius: 0.2vw;
+    cursor: pointer;
+}
+#documentation_button{
+    width:9vw;
+    height:5vh;
+    border-radius: 0.2vw;
+    border:none;
+    outline: none;
+    font-size:1vw ;
+    position: relative;
+    top:22vh;
+    left:43vw;
+    cursor: pointer;
+}
+#image_container{
+    width:65.5vw;
+    height:75vh;
+    background-color: rgb(42, 111, 156);
+    position:relative;
+    top:30vh;
+    left:16vw;
+    border-radius: 1.5vw;
+    box-shadow: -0.2vw -0.2vw 0.2 vw blue;
+}
+#image1{
+   padding-left:0.6vw;
+   padding-top: 0.6vw;
+   border-radius: 1.5vw;
+}
+#ourapp_button{
+    color:rgb(107, 209, 239);
+    width:6vw;
+    height:4vh;
+    position:relative;
+    left:46vw;
+    top:55vh;
+    background-color: rgb(30 41 59 );
+    border:none;
+    border-radius: 2vw;
+    box-shadow: -0.05vw -0.05vw 0.1px rgb(71, 200, 239);
+    cursor: pointer;
+}
+#ourapp_heading{
+    color:rgb(221, 211, 211);
+    font-family: ProductSans;
+    font-size: 3.5vw;
+    position:relative;
+    left:27vw;
+    top:58vh;
+    font-weight: lighter;
+}
+#ourapp_para{
+    color:rgb(203, 198, 198);
+    position:relative;
+    top:59vh;
+    left:20vw;
+    font-size: 1.1vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 3vh;
+}
+#phone_image{
+    width:48vw;
+    position:relative;
+    top:65vh;
+    left:30vw;
+}
+#download_image{
+    position:relative;
+    top:63vh;
+    left:vw;
+    right:2vw;
+    color:white;
+    font-size: 1.05vw;
+    cursor: pointer;
+}
+#googlepay_image{
+    position:relative;
+    top:63vh;
+    right:1.7vw;
+    cursor: pointer;
+}
+#main_heading{
+    color:rgb(144, 191, 206);
+    background-color: rgb(21, 21, 25);
+    position:relative;
+    top:64vh;
+    font-size: 9vw;
+    text-align: center;
+}
+#masterji_button{
+    color:rgb(107, 209, 239);
+    width:6vw;
+    height:4vh;
+    position:relative;
+    left:46vw;
+    top:65vh;
+    background-color: rgb(30 41 59 );
+    border:none;
+    border-radius: 2vw;
+    box-shadow: -0.05vw -0.05vw 0.1px rgb(71, 200, 239);
+    cursor: pointer;
+}
+#enhence_heading{
+    color:rgb(221, 211, 211);
+    font-family: ProductSans;
+    font-size: 3.5vw;
+    position:relative;
+    left:21vw;
+    top:67vh;
+    font-weight: lighter;
+}
+#enhence_para{
+    color:rgb(203, 198, 198);
+    position:relative;
+    top:68vh;
+    left:21vw;
+    font-size: 1.1vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 3vh;
+}
+#first_division{
+    border-radius: 1vw;;
+    width:92vw;
+    height:35vh;
+    border: 1px solid rgb(96, 147, 250);
+    position:relative;
+    top:75vh;
+    left:3.5vw;
+    box-shadow:inset 0px 1px 50px rgb(53, 216, 245) ; ;
+}
+#community_heading{
+    color:white;
+    font-size: 4vw;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.3vw;
+    position:relative;
+    left:2vw;
+    top:5vh;
+}
+#community_para{
+    position:relative;
+    top:6vh;
+    left:2vw;
+    font-size: 1.1vw;
+    color:gray;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#community_image{
+    position:relative;
+    left:66vw;
+    bottom:16vh;
+}
+#collabrate{
+    width:45vw;
+    height:35vh;
+    border: 1px solid rgb(96, 147, 250);
+    position:relative;
+    top:78vh;
+    left:3.5vw;
+    border-radius: 1vw;
+    z-index: 2;
+}
+#assignments{
+    width:45vw;
+    height:35vh;
+    border: 1px solid rgb(96, 147, 250);
+    position:relative;
+    top:43vh;
+    left:50vw;
+    border-radius: 1vw;
+    z-index: 2;
+}
+
+#collab_heading{
+    color:white;
+    font-size: 4vw;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.1vw;
+    position:relative;
+    left:2vw;
+    top:5vh;
+}
+#collabe_para{
+    position:relative;
+    top:6vh;
+    left:2vw;
+    font-size: 1.1vw;
+    color:gray;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#collabe_image{
+    position:relative;
+    bottom:7vh;
+    left:32vw;
+    width:13vw;
+}
+#assign_heading{
+        color:white;
+        font-size: 4vw;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        letter-spacing: 0.1vw;
+        position:relative;
+        left:2vw;
+        top:5vh;
+}
+#assign_para{
+    position:relative;
+    top:6vh;
+    left:2vw;
+    font-size: 1.1vw;
+    color:gray;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#assign_image{
+    position:relative;
+    top:3vh;
+    left:28vw;
+    width:15vw
+}
+#glass_container{
+    width:7vw;
+    height: 7vw;
+    border:1px solid blue;
+    position:relative;
+    left:46vw;
+    top:1vh;
+    border-radius: 50%;
+    background-color: black;
+    z-index: 3;
+}
+#glass{
+    width:6vw;
+    position:relative;
+    top:1vh;
+    left:0.5vw;
+}
+#student{
+    width:92vw;
+    height:45vh;
+    border: 0.5px solid rgb(68, 67, 67);
+    position:relative;
+    top:20vh;
+    left:3.5vw;
+    border-radius: 1vw;
+    box-shadow:inset 0 -2px 50px rgb(46, 191, 248),  /* Top shadow */
+    inset 0 2px 100px rgb(53, 216, 245) ;
+}
+#student_heading{
+    color:white;
+    font-size: 4vw;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.1vw;
+    position:relative;
+    left:2vw;
+    top:5vh;
+}
+#we_para{
+    color:white;
+    font-size: 1.5vw;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.1vw;
+    position:relative;
+    left:2vw;
+    top:8vh;
+}
+#cartoon_image{
+    position:relative;
+    left:2vw;
+    top:9vh;
+
+}
+#discard_heading{
+    color:white;
+    font-size: 4vw;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.1vw;
+    position:relative;
+    left:7vw;
+    bottom:2vh;
+}
+#joinNow_button{
+    width:6vw;
+    height:5vh;
+    border-radius: 2vw;
+    font-size: 1vw;
+    border:none;
+    outline: none;
+    position:relative;
+    left:80vw;
+    bottom:15vh;
+    cursor: pointer;
+}
+#freelife{
+    color:gray;
+    font-size: 1vw;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position:relative;
+    left:79.5vw;
+    bottom:13vh;
+}
+#cartoon_image1{
+    width:4.5vw;
+    height:9vh;
+    position:relative;
+    top:24vh;
+    left:47vw;
+    background-color: white;
+    border-radius: 1.5vw;
+    z-index: 1;
+    transform: rotate(-30deg);
+}
