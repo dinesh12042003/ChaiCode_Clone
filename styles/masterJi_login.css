@@ -1,0 +1,91 @@
+/* Reset basic styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #111;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Center container */
+.login-container {
+  text-align: center;
+}
+
+span {
+  color: orange;
+}
+
+/* Heading style */
+.login-container h1 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+/* Emphasize "Masterji" */
+.login-container h1{
+  color: white;
+}
+
+/* Button shared styles */
+.login-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6600;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 400px;
+    transition: background-color 0.3s ease;
+}
+#h1{
+  font-size: 32px;
+  margin: 5px;
+  padding: 2px;
+}
+#span{
+  color: #f26100;
+}
+
+.login-button img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.anchors{
+  text-decoration: none;
+}
+
+.login-button:hover {
+  background-color: grey;
+}
+
+/* Login link */
+.login-text {
+  margin-top: 15px;
+  font-size: 14px;
+}
+p{
+  font-size: 14px;
+}
+.login-text a {
+  color: #4aa3ff;
+  text-decoration: none;
+}
+
+.login-text a:hover {
+  text-decoration: none;
+}
