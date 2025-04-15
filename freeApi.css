@@ -1,0 +1,371 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background-color: rgb(17 24 39);
+    overflow-x: hidden;
+
+}
+@font-face{
+    font-family: ProductSans;
+    src:url(../assets/fonts/Product\ Sans\ Regular.ttf)
+}
+#free_heading{
+    background-image: linear-gradient(to right,rgb(82, 179, 211),violet);
+    display:inline;
+    color:transparent;
+    background-clip: text;
+    font-size: 2vw;
+    position:relative;
+    top:2vw;
+    left:1vw;
+    font-size: 2vw;
+    font-family:ProductSans;
+    font-weight: bolder;
+
+}
+#main_heading{
+    color:white;
+    position:relative;
+    top:15vh;
+    left:25vw;
+    font-size: 4vw;
+    font-family: ProductSans;
+    font-weight: bolder;
+    word-spacing: 5px;
+    letter-spacing: 0.1vw;
+}
+#span{
+    transform: rotateY(90deg);
+}
+.cat{
+    color:rgb(224, 211, 211);
+}
+#cat_container{
+    position:relative;
+    left:97vw;
+}
+#para1{
+    color:gray;
+    position:relative;
+    top:18vh;
+    left:21vw;
+    font-size: 1.8vw;
+    font-family: ProductSans;
+}
+#interactive{
+    position:relative;
+    top:23vh;
+    left:40vw;
+    background-color: rgb(72, 72, 228);
+    display:inline-block;
+    width:200px;
+    height:40px;
+    border-radius: 30px;
+    transition: all 500ms;
+    font-family: ProductSans;
+}
+#text{
+    color:white;
+    padding-left: 1vw;
+    font-size: 20px;
+    text-decoration: none;
+}
+#interactive:hover{
+    transform: scale(1.1);
+    background-color: rgb(28, 28, 211);
+    cursor: pointer; 
+}
+#container{
+    position:relative;
+    left:0.5vw;
+    top:35vh;
+    width:98vw;
+    height:55vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.box{
+    width:31.5vw;
+    height:25vh;
+    background-color: rgb(31, 41, 55);
+   
+    border-radius: 0.5vw; 
+}
+#first_box{
+    color:rgb(96, 165, 250);
+   
+}
+#first_content{
+    color:white;
+}
+#first_para{
+    color:gray;
+}
+.first{
+    position: relative;
+    top:1.5vw;
+    left:1.5vw;
+    margin-top: 1.5vh;
+    font-family: ProductSans;
+    letter-spacing: 0.1vw;
+    line-height: 3vh;
+}
+.box:hover{
+    transform: scale(1.02);
+}
+#second_box{
+    color:rgb(96, 165, 250);
+}
+#second_content{
+    color:white;
+}
+#second_para{
+    color:gray;
+}
+.second{
+    position: relative;
+    top:1.5vw;
+    left:1.5vw;
+    margin-top: 1.5vh;
+    font-family: ProductSans;
+    letter-spacing: 0.1vw;
+    line-height: 3vh;
+}
+#third_box{
+    color:rgb(96, 165, 250); 
+}
+#third_content{
+    color:white;
+}
+#third_para{
+    color:gray;
+}
+.third{
+    position: relative;
+    top:1.5vw;
+    left:1.5vw;
+    margin-top: 1.5vh;
+    font-family: ProductSans;
+    letter-spacing: 0.1vw;
+    line-height: 3vh;
+}
+#fourth_box{
+    color:rgb(96, 165, 250); 
+}
+#fourth_content{
+    color:white;
+}
+#fourth_para{
+    color:gray;
+}
+.fourth{
+    position: relative;
+    top:1.5vw;
+    left:1.5vw;
+    margin-top: 1.5vh;
+    font-family: ProductSans;
+    letter-spacing: 0.1vw;
+    line-height: 3vh;
+}
+
+#fifth_box{
+    color:rgb(96, 165, 250); 
+}
+#fifth_content{
+    color:white;
+}
+#fifth_para{
+    color:gray;
+}
+.fifth{
+    position: relative;
+    top:1.5vw;
+    left:1.5vw;
+    margin-top: 1.5vh;
+    font-family: ProductSans;
+    letter-spacing: 0.1vw;
+    line-height: 3vh;
+}
+#sixth_box{
+    color:rgb(96, 165, 250); 
+}
+#sixth_content{
+    color:white;
+}
+#sixth_para{
+    color:gray;
+}
+.sixth{
+    position: relative;
+    top:1.5vw;
+    left:1.5vw;
+    margin-top: 1.5vh;
+    font-family: ProductSans;
+    letter-spacing: 0.1vw;
+    line-height: 3vh;
+}
+#FreeAPI_heading{
+    color:white;
+    position:relative;
+    top:45vh;
+    text-align: center;
+    font-family: ProductSans;
+    letter-spacing: 0.1vw;
+    font-size: 2.5vw;
+}
+#container2{
+    position:relative;
+    top:38vh;
+    width:99vw;
+    height:35vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#first_part{
+    color:rgb(96, 165, 250); 
+}
+#second_part{
+    color:rgb(96, 165, 250); 
+}
+#third_part{
+    color:rgb(96, 165, 250); 
+}
+.heading{
+    position:relative;
+    left:2vw;
+    top:11vh;
+    width:99vw;
+    height:35vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: ProductSans;
+    letter-spacing: 0.25vw;
+    color:white;
+    font-size: 1.7vw;
+    font-weight: bold;
+}
+.paragraph{
+    position:relative;
+    left:0.2vw;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-family: ProductSans;
+    letter-spacing: 0.1vw;
+    color:gray;
+}
+#emoji{
+    margin-top:1vh;
+}
+#last_heading{
+    color:white;
+    font-family: ProductSans;
+    text-align: center;
+    margin-top: 14.5vh;
+    font-size: 2.5vw;
+    letter-spacing: 0.1vw;
+}
+#nav_bar{
+    margin-top: 5vh;
+   
+    background-color: rgb(31, 41, 55);
+    width:98vw;
+    height:45vh;
+    border-radius: 0.5vw;
+    margin-left: 0.5vw;
+}
+#button_container{
+    width:100vw;
+    height:7vh;
+    border-bottom: 0.5px solid gray;
+    margin-top: 1vw;
+    display: flex;
+    
+}
+.buttons{
+    color:rgb(202, 196, 196);
+    background-color:rgb(31, 41, 55) ;
+    font-size: 1.5vw;
+    border:none;
+    outline: none;
+    margin-left: 2vw;
+}
+.buttons:hover{
+    color:white;
+    cursor: pointer;
+}
+#content_one{
+    display:none;
+}
+#content_two{
+    display: none;
+}
+#content_three{
+    display: none;
+}
+#content_one{
+    color:white;
+    position: relative;
+    right: 9vw;
+    top:2vh;
+    font-size: 1vw;
+    line-height: 1.4vw;
+}
+#content_two{
+    color:white;
+    position: relative;
+    right: 9vw;
+    top:2vh;
+    font-size: 1vw;
+    line-height: 1.4vw;
+}
+#content_three{
+    color:white;
+    position: relative;
+    right: 9vw;
+    top:2vh;
+    font-size: 1vw;
+    line-height: 1.4vw;
+}
+#last_one{
+    position:relative;
+    top:5vh;
+    left:43vw;
+    background-color: rgb(72, 72, 228);
+    display:inline-block;
+    width:200px;
+    height:40px;
+    border-radius: 30px;
+    transition: all 500ms;
+    font-family: ProductSans;
+   
+}
+#text2{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2vw;
+    padding-left: 1.5vw;
+    padding-top: 1.2vw;
+}
+#last_one:hover{
+    transform: scale(1.1);
+    background-color: rgb(28, 28, 211);
+    cursor: pointer;   
+}
+footer{
+    margin-top: 30vh;
+    color:gray;
+    text-align: center;
+    font-size: 1.2vw;
+    margin-bottom: 5vh;
+    font-family: ProductSans;
+}
